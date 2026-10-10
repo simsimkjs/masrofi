@@ -12,7 +12,7 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   cupertino_icons: ^1.0.6
-  
+  flutter_launcher_icons: ^0.13.1
   # قاعدة البيانات
   sqflite: ^2.3.0
   path: ^1.8.3
@@ -43,6 +43,14 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/app_icon.png"
+  adaptive_icon_background: "#1565C0"  # لون الخلفية (اختياري)
+  adaptive_icon_foreground: "assets/icon/app_icon_foreground.png"  # (اختياري)
+  remove_alpha_ios: true  # إزالة الشفافية لـ iOS
 
   # ✅ الخطوط
   fonts:
