@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- الخلفية -->
+  <rect width="512" height="512" rx="112" fill="#FFFFFF"/>
+  
+  <!-- الحدود -->
+  <rect x="16" y="16" width="480" height="480" rx="96" 
+        fill="none" stroke="#1565C0" stroke-width="16"/>
+  
+  <!-- المحفظة -->
+  <path d="M140 200 Q140 160 180 160 L340 160 Q380 160 380 200 L380 380 Q380 420 340 420 L180 420 Q140 420 140 380 Z" 
+        fill="#1565C0"/>
+  
+  <!-- فتحة المحفظة -->
+  <path d="M140 240 L380 240" stroke="#FFFFFF" stroke-width="8"/>
+  
+  <!-- الرسم البياني -->
+  <rect x="180" y="320" width="30" height="60" rx="6" fill="#4CAF50"/>
+  <rect x="230" y="290" width="30" height="90" rx="6" fill="#FFC107"/>
+  <rect x="280" y="260" width="30" height="120" rx="6" fill="#F44336"/>
+  
+  <!-- السهم -->
+  <path d="M195 300 L245 250 L295 270 L330 230" 
+        stroke="#FFFFFF" stroke-width="10" fill="none" 
+        stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <circle cx="330" cy="230" r="10" fill="#FFFFFF"/>
+</svg>

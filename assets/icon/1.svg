@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 432 432" width="432" height="432">
+  <!-- ✅ المنطقة الآمنة: من 66 إلى 366 (300×300) -->
+  <g transform="translate(66, 66) scale(0.586)">
+    <!-- المحفظة (الحجم الأصلي 512×512) -->
+    <path d="M100 180 Q100 140 140 140 L372 140 Q412 140 412 180 L412 380 Q412 420 372 420 L140 420 Q100 420 100 380 Z" 
+          fill="#FFFFFF"/>
+    
+    <!-- خط المحفظة الأفقي -->
+    <path d="M100 240 L412 240" stroke="#1565C0" stroke-width="12"/>
+    
+    <!-- الرسم البياني -->
+    <rect x="150" y="320" width="45" height="70" rx="10" fill="#4CAF50"/>
+    <rect x="215" y="280" width="45" height="110" rx="10" fill="#FFC107"/>
+    <rect x="280" y="240" width="45" height="150" rx="10" fill="#F44336"/>
+    
+    <!-- السهم الصاعد -->
+    <path d="M170 300 L235 245 L290 270 L360 200" 
+          stroke="#FFFFFF" stroke-width="14" fill="none" 
+          stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- رأس السهم -->
+    <circle cx="360" cy="200" r="14" fill="#FFFFFF"/>
+    
+    <!-- العملة الذهبية -->
+    <circle cx="400" cy="180" r="50" fill="#FFC107"/>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="55" 
+          font-weight="bold" fill="#1565C0" text-anchor="middle">$</text>
+  </g>
+</svg>
